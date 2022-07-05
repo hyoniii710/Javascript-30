@@ -89,8 +89,8 @@
       // 백틱사용하기 전엔 IsaacNewton 과 같이 문자열이 붙어서 나오므로 해줘야함.
       console.log(fullNames);
 
-      // Array.prototype.sort() : 배열 안의 원소를 정렬하는 함수 ( 요소 순서를 결정 / 오름차순 )
-      // 3. Sort the inventors by birthdate, oldest to youngest (나이순으로 오름차순 정렬)
+      Array.prototype.sort() : 배열 안의 원소를 정렬하는 함수 ( 요소 순서를 결정 / 오름차순 )
+      3. Sort the inventors by birthdate, oldest to youngest (나이순으로 오름차순 정렬)
       // const ordered = inventors.sort(function (a, b) {
       //   if (a.year > b.year) {
       //     return 1;
@@ -107,7 +107,7 @@
       const totalYears = inventors.reduce((total, inventors) => {
         return total + (inventors.passed - inventors.year);
       }, 0);
-      console.log(totalYears); //861년
+      console.log(totalYears); //  861년 / 연속된 두 요소의 생애주기 값으로 비교 후 정렬했다.
 
       // 5. Sort the inventors by years lived // 수명(생애주기)기준으로 발명가를 정렬
       const oldest = inventors.sort(function (a, b) {
@@ -117,14 +117,14 @@
       });
       console.table(oldest);
 
-      // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
-      // 링크에 들어가 이름에 de가 포함된 streetname 목록 만들기
-      // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-      // const category = document.querySelector(".mw-category");
-      // const links = Array.from(category.querySelectorAll("a"));
-      // const de = links
-      //   .map((link) => link.textContent)
-      //   .filter((streetname) => streetname.includes("de"));
+      6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+      링크에 들어가 이름에 de가 포함된 streetname 목록 만들기
+      https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+      const category = document.querySelector(".mw-category");
+      const links = Array.from(category.querySelectorAll("a"));
+      const de = links
+        .map((link) => link.textContent)
+        .filter((streetname) => streetname.includes("de"));
 
       // 7. sort Exercise
       // Sort the people alphabetically by last name
