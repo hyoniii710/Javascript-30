@@ -5,5 +5,7 @@
 <br>
 DAY :one: - keypress를 이용하여 만든 드럼게임입니다.<br>
 DAY :two: - transform을 이용하여 만든 시계입니다. <br>
-DAY :three: - css 속성 값 변수를 사용하여 style변경이 가능하도록 만들었습니다. <br>
+DAY :three: - CSS 속성 값 변수를 사용하여 style변경이 가능하도록 만들었습니다. <br>
 DAY :four: - Array 연습 코드입니다. <br>
+DAY :five: - CSS flex 연습 코드입니다. <br>
+DAY :six: - 도시 api를 사용하여 키워드에 맞는 도시를 검색할 수 있습니다. <br>
