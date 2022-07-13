@@ -5,5 +5,5 @@
 DAY :one: - keypress를 이용하여 만든 드럼게임입니다.<br>
 DAY :two: - transform을 이용하여 만든 시계입니다. <br>
 DAY :three: - css 속성 값 변수를 사용하여 style변경이 가능하도록 만들었습니다. <br>
-DAY :four: - Array 연습 코드입니다. 
+DAY :four: - Array 연습 코드입니다.  <br>
 DAY :five: - flex 연습
