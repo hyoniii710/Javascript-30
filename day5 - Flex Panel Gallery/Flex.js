@@ -16,7 +16,7 @@ function toggleActive(e) {
 }
 
 panels.forEach((panel) => panel.addEventListener("click", toggleOpen));
-// 두 번째 단계는 전환이 완료되고 나면 위에서 단어를 가져오고 아래에서 단어를 가져오고
+// 두 번째 단계는 전환이 완료되A고 나면 위에서 단어를 가져오고 아래에서 단어를 가져오고
 // 전환과 이벤트를 위해 toggle active라는 기능을 사용하여 open active 클래스를 가져온다.
 panels.forEach((panel) =>
   panel.addEventListener("transitionend", toggleActive)
